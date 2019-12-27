@@ -1,6 +1,6 @@
 import React from 'react'; 
 
-
+// Hol
 const Journal = () => {
 
 }
