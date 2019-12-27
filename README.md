@@ -14,6 +14,8 @@ Type Therapy is an app that helps users reflect through writing in a journal eac
 
 - ReactJs
 
+- Redux 
+
 - NodeJs
 
 - Express
@@ -21,6 +23,8 @@ Type Therapy is an app that helps users reflect through writing in a journal eac
 - BcryptJs
 
 - Ant Design
+
+- Axios
 
   
 
