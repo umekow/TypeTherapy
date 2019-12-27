@@ -33,7 +33,7 @@ A user can:
 
 - write and save mini journal entries through out the day
 - have ability to label each entry 
-- keep track of their mood throughout the day 
+- keep track of their mood throughout the day
 - keep journal private with a unique username and password
 ##### Environments
 Heroku pipeline is used for testing, staging and deployment. 
