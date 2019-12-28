@@ -26,6 +26,7 @@ Type Therapy is an app that helps users reflect through writing in a journal eac
 
 - Axios
 
+- Quill
   
 
 #### Features
