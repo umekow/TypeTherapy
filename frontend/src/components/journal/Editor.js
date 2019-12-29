@@ -1,12 +1,12 @@
-import React from 'react'; 
-//api for wysiwyg editor: 
+import React, {useState} from 'react'; 
+import ReactQuill from 'react-quill'; 
 
-//container for all elements related to writing and editing an entry
-const Editor = () => {
-    return (
-        <div className="editor">
-           
-        </div>
+const Editor = props => {
+    const [text, setText] = useState("How are you feeling?"); 
+
+
+    return(
+        <ReactQuill value={text} onChange={ () => setText(text)}/>
     )
 }
 
