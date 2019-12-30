@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 //components
-import Editor from './components/journal/Editor.js'
+import Editor from './components/journal/editor/Editor.js'
 function App() {
   return (
     <div className="App">
