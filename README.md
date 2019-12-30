@@ -4,7 +4,7 @@ Type Therapy is an app that helps users reflect through writing in a journal eac
 
 ## Motivation
 
-[Research](https://www.urmc.rochester.edu/encyclopedia/content.aspx?ContentID=4552&ContentTypeID=1) suggests that journaling helps improve one's mental wellbeing. This application was built to help users keep all of their journal entries in one place and to offer a good user experience.
+[Research](https://www.urmc.rochester.edu/encyclopedia/content.aspx?ContentID=4552&ContentTypeID=1) suggests that journaling helps improve one's mental wellbeing. This application was built to help users keep all of their journal entries in one padd lace and to offer a good user experience.
 
   
 
@@ -14,6 +14,8 @@ Type Therapy is an app that helps users reflect through writing in a journal eac
 
 - ReactJs
 
+- Redux 
+
 - NodeJs
 
 - Express
@@ -22,14 +24,17 @@ Type Therapy is an app that helps users reflect through writing in a journal eac
 
 - Ant Design
 
+- Axios
+
+- Quill
   
 
 #### Features
 A user can: 
 
-- write and save journal entries 
-- have multiple journals or collections for entries
-- keep track of their mood 
+- write and save mini journal entries through out the day
+- have ability to label each entry 
+- keep track of their mood throughout the day
 - keep journal private with a unique username and password
 ##### Environments
 Heroku pipeline is used for testing, staging and deployment. 
