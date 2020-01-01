@@ -40,6 +40,7 @@ const Editor = props => {
         icons['underline'] = '<i class="fa fa-underline" aria-hidden="true"></i>';
         icons['link'] = '<i class="fa fa-link" aria-hidden="true"></i>';
         icons['clean'] = '<i class="fa fa-eraser" aria-hidden="true"></i>'; 
+        icons['dropdown'] = '<img src="" alt="dropdown" />'; 
 
         var quill = new Quill('#editor', {
           theme: 'snow', //this needs to come after the above, which registers Snow...
@@ -50,13 +51,15 @@ const Editor = props => {
         });
   }, [])
 
-   
-
-    
 
     return (
       <div>
-        <div id="toolbar"></div>
+        <div id="toolbar">
+          <select>
+            <option value="Heading 1"></option>
+            <option value="Heading 2"></option>
+          </select>
+        </div>
           <div id="QuillEditor-container">
             {/* <!-- Create the editor container --> */}
             <div id="editor">
