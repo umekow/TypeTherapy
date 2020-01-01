@@ -14,6 +14,9 @@ import Link from 'quill/formats/link';
 import List, { ListItem } from 'quill/formats/list';
 
 import Icons from 'quill/ui/icons'; 
+import Module from 'quill/core/module';
+
+
 
 const Editor = props => {
 
@@ -32,7 +35,7 @@ const Editor = props => {
         });
 
         var icons = Quill.import('ui/icons');
-        icons['bold'] = '<i class="fa fa-bold" aria-hidden="true"></i>';
+        icons['bold'] = '<img style="width:75%;" src="https://img.icons8.com/android/24/000000/bold.png">';
         icons['italic'] = '<i class="fa fa-italic" aria-hidden="true"></i>';
         icons['underline'] = '<i class="fa fa-underline" aria-hidden="true"></i>';
         icons['link'] = '<i class="fa fa-link" aria-hidden="true"></i>';
@@ -40,7 +43,10 @@ const Editor = props => {
 
         var quill = new Quill('#editor', {
           theme: 'snow', //this needs to come after the above, which registers Snow...
-          placeholder: "Write something awesome..."
+          placeholder: "Write something awesome...", 
+          modules: {
+            toolbar: '#toolbar'
+          }
         });
   }, [])
 
@@ -50,6 +56,7 @@ const Editor = props => {
 
     return (
       <div>
+        <div id="toolbar"></div>
           <div id="QuillEditor-container">
             {/* <!-- Create the editor container --> */}
             <div id="editor">
@@ -62,4 +69,4 @@ const Editor = props => {
     )
   }
 
-  export default Editor
+  export default Editor; 
