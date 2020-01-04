@@ -7,8 +7,8 @@ import Month from './components/journal/sidebar/months/Month'
 
 const months = [
   { 
-    month: 'January', 
-    entries:
+    "month": 'January', 
+    "entries":
       [
         {
           weekday : 'WED', 

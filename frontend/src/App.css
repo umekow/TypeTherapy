@@ -43,21 +43,45 @@
 
 /***************SideBar Component*******************/
 
+/*Month*/
+.month-container{
+  border : 1px solid gray; 
+}
+
+.month{
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 1%;
+  background: #F9F9F9;
+  font-weight: 600;
+}
+
+/*End of Month*/
+
+
 /*DayEntry*/
 
 .day{
   display: flex; 
+  border-top: 1px solid gray; 
 }
 
+.day p{
+  margin: 0; 
+}
+
+
 .date{
-  width: 25%; 
-  padding: 10% 10% 20%; 
+  width: 15%;
+  padding: 2% 2% 5%;
+  border-right: 1px solid gray; 
   
 }
 
 .datenum{
   font-size: 2rem;
   font-weight: 800; 
+
 }
 
 .weekday{
@@ -65,12 +89,16 @@
 }
 
 .entry{
-  width: 75%; 
-  padding: 5%; 
+  width: 85%; 
+  padding: 4% 3% 0;
+  text-align: left;
+  font-size: 1rem; 
 }
 
 .entry-title{
-  font-weight: 700; 
+  font-weight: 600;
+  font-size: 1.2rem; 
 }
 
 /*end of dayentry styles*/
+
