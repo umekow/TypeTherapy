@@ -55,7 +55,7 @@ const Editor = props => {
           <div id="QuillEditor-container">
             {/* <!-- Create the editor container --> */}
             <div id="editor">
-              <p>Hello World!</p>
+              <p>How are you today?</p>
               
               <p></p>
             </div>

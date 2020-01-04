@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-size : 12.5%; 
 }
 
 .App-logo {
@@ -36,3 +37,40 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+/***************SideBar Component*******************/
+
+/*DayEntry*/
+
+.day{
+  display: flex; 
+}
+
+.date{
+  width: 25%; 
+  padding: 10% 10% 20%; 
+  
+}
+
+.datenum{
+  font-size: 2rem;
+  font-weight: 800; 
+}
+
+.weekday{
+  font-size: 1rem; 
+}
+
+.entry{
+  width: 75%; 
+  padding: 5%; 
+}
+
+.entry-title{
+  font-weight: 700; 
+}
+
+/*end of dayentry styles*/
