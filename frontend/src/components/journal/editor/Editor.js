@@ -44,22 +44,14 @@ const Editor = props => {
 
         var quill = new Quill('#editor', {
           theme: 'snow', //this needs to come after the above, which registers Snow...
-          placeholder: "Write something awesome...", 
-          modules: {
-            toolbar: '#toolbar'
-          }
+          
         });
   }, [])
 
 
     return (
       <div>
-        <div id="toolbar">
-          <select>
-            <option value="Heading 1"></option>
-            <option value="Heading 2"></option>
-          </select>
-        </div>
+     
           <div id="QuillEditor-container">
             {/* <!-- Create the editor container --> */}
             <div id="editor">
