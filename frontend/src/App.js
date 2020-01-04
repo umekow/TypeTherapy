@@ -50,7 +50,7 @@ const months = [
 function App() {
   return (
     <div className="App">
-      <Month/>
+      <Month month={months[0].month} entries={months[0].entries}/>
     </div>
   );
 }

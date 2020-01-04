@@ -11,8 +11,8 @@ const Month = props => {
 
             {
                 props.entries.map(entry => <DayEntry 
-                                                date={entry.date} 
-                                                day={entry.day} 
+                                                date={entry.day} 
+                                                day={entry.weekday} 
                                                 title={entry.title} 
                                                 summary={entry.summary}
                                             />
