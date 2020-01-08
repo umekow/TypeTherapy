@@ -1,6 +1,6 @@
 # Type Therapy
 
-Type Therapy is an app that helps users reflect through writing in a journal each day.
+Type Therapy is an app that helps users keep track of their daily food intake and their moods throughout their fitness journey.
 
 ## Motivation
 
