@@ -1,13 +1,13 @@
 import React from 'react'; 
-
+import '../../../../App.css'
 //component for each 
 const DayEntry = props => {
     
     return(
         <div className="day">
             <div className="date">
-                <p>{props.date}</p>
-                <p>{props.day}</p>
+                <p className="datenum">{props.date}</p>
+                <p className="weekday">{props.day}</p>
             </div>
 
             <div className="entry">

@@ -6,13 +6,13 @@ const Month = props => {
         <div className="month-container">
             
             <div className="month">
-                {props.month}
+               <p> {props.month}</p>
             </div>
-
+        
             {
                 props.entries.map(entry => <DayEntry 
-                                                date={entry.date} 
-                                                day={entry.day} 
+                                                date={entry.day} 
+                                                day={entry.weekday} 
                                                 title={entry.title} 
                                                 summary={entry.summary}
                                             />
